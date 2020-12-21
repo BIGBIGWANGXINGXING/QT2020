@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/selected.png</file>
+    </qresource>
+    <qresource prefix="/myStyle"/>
+    <qresource prefix="/QSS">
+        <file>pushButonStyle.qss</file>
+    </qresource>
+</RCC>

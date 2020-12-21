@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QHelpCollectionProject version="1.0">
+<assistant>
+  <title>我的帮助系统</title>
+  <applicationIcon>pk2.jpg</applicationIcon>
+  <cacheDirectory>cache/help</cacheDirectory>
+  <homePage>qthelp://sqf.help/doc/help.html</homePage>
+  <startPage>qthelp://sqf.help/doc/help.html</startPage>
+  <aboutMenuText>
+    <text>关于该帮助</text>
+  </aboutMenuText>
+  <aboutDialog>
+    <file>about.txt</file>
+    <icon>pk2.jpg</icon>
+  </aboutDialog>
+  <enableDocumentationManager>false</enableDocumentationManager>
+  <enableAddressBar>false</enableAddressBar>
+  <enableFilterFunctionality>false</enableFilterFunctionality>
+</assistant>
+<docFiles>
+  <generate>
+    <file>
+      <input>help.qhp</input>
+      <output>help.qch</output>
+    </file>
+  </generate>
+  <register>
+    <file>help.qch</file>
+  </register>
+</docFiles>
+</QHelpCollectionProject>

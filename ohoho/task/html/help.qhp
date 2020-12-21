@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QtHelpProject version="1.0">
+  <namespace>sqf.help</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <toc>
+      <section title="帮助" ref="about.html">      
+        </section>
+    </toc>
+    <keywords>
+      <keyword name="帮助" ref="about.html"/>
+    </keywords>
+    <files>
+      <file>*.html</file>
+      <file>*.png</file>
+    </files>
+  </filterSection>
+</QtHelpProject>
+

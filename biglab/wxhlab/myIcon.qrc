@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>image/icon/ASCII.png</file>
+        <file>image/icon/Canny.png</file>
+        <file>image/icon/Sobel.png</file>
+        <file>image/icon/边缘复合.png</file>
+        <file>image/icon/二值化.png</file>
+        <file>image/icon/伽马变换.png</file>
+        <file>image/icon/高斯滤波.png</file>
+        <file>image/icon/灰度.png</file>
+        <file>image/icon/亮度.png</file>
+        <file>image/icon/均值滤波.png</file>
+        <file>image/icon/视频.png</file>
+        <file>image/icon/open.png</file>
+        <file>image/icon/sava.png</file>
+        <file>image/icon/folder.png</file>
+        <file>image/icon/download.png</file>
+    </qresource>
+    <qresource prefix="/appindex">
+        <file>image/index.png</file>
+    </qresource>
+</RCC>

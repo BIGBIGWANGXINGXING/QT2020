@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>538</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">#centralWidget{background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0.0284091 rgba(107, 101, 187, 255), stop:0.454545 rgba(212, 223, 223, 236), stop:1 rgba(164, 157, 255, 255));}</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">#widget{background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0.0284091 rgba(107, 101, 187, 255), stop:0.454545 rgba(212, 223, 223, 236), stop:1 rgba(164, 157, 255, 255));
+border-color: rgb(107, 114, 161);}
+
+</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_3"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>538</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_G">
+    <property name="title">
+     <string>游戏(&amp;G)</string>
+    </property>
+    <addaction name="action_N"/>
+    <addaction name="separator"/>
+    <addaction name="action_S"/>
+    <addaction name="action_O"/>
+    <addaction name="action_A"/>
+    <addaction name="separator"/>
+    <addaction name="action_X"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="action_V"/>
+    <addaction name="separator"/>
+    <addaction name="action_A_2"/>
+    <addaction name="separator"/>
+    <addaction name="action_M"/>
+   </widget>
+   <addaction name="menu_G"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <action name="action_N">
+   <property name="text">
+    <string>新游戏(&amp;N)</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="action_S">
+   <property name="text">
+    <string>统计信息(&amp;S)</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="action_O">
+   <property name="text">
+    <string>选项(&amp;O)</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="action_A">
+   <property name="text">
+    <string>更改外观(&amp;A)</string>
+   </property>
+   <property name="shortcut">
+    <string>F7</string>
+   </property>
+  </action>
+  <action name="action_X">
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+  </action>
+  <action name="action_V">
+   <property name="text">
+    <string>查看帮助(&amp;V)</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="action_A_2">
+   <property name="text">
+    <string>关于扫雷(&amp;A)</string>
+   </property>
+  </action>
+  <action name="action_M">
+   <property name="text">
+    <string>联机获取更多信息(&amp;M)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

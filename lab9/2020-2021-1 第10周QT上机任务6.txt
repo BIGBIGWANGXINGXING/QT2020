@@ -1,0 +1,12 @@
+《Qt Creator快速入门》第3版实验讲义
+实验6、实验7、实验8
+
+
+1、32位qt访问64位mysql驱动有问题，考虑找到对应的libmysql.dll，放到qt的bin文件夹试试。
+
+2、连接参考资料
+Qt5.14.2连接MySQL8.0（windows安装版）
+https://blog.csdn.net/mr_tea_milk/article/details/107718186
+
+3、或者试下“QMYSQL”改为“QSQLITE”
+

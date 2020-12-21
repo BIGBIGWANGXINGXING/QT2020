@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/filenew.png</file>
+        <file>images/fileopen.png</file>
+        <file>images/filesave.png</file>
+        <file>images/filesaveas.png</file>
+        <file>images/find.png</file>
+        <file>images/help.png</file>
+        <file>images/zoom-in.png</file>
+        <file>images/video.png</file>
+        <file>images/heibai.png</file>
+        <file>images/erzhihua.png</file>
+        <file>images/lvbo.png</file>
+        <file>images/bianyuanjiance.png</file>
+        <file>images/gamma.png</file>
+    </qresource>
+</RCC>
